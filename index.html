@@ -7,6 +7,8 @@
         <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
         <script src="bootstrap/js/jquery.min.js"></script>
         <script src="bootstrap/js/bootstrap.min.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Abel&family=Dosis&family=Josefin+Sans&display=swap" rel="stylesheet">
         <style>
             #banner_image{
                 padding-top: 75px;
@@ -18,12 +20,22 @@
             }
             #banner_content{
                 position: relative;
-                padding-top: 6%;
+                padding-top: 2%;
                 padding-bottom: 6%;
                 margin-top: 12%;
                 margin-bottom: 12%;
                 background-color: rgba(0, 0, 0, 0.7);
-                max-width: 660px;
+                max-width: 550px;
+            }
+            footer{
+                background-color: #000;
+                color: #fff;
+                font-size: 14px;
+            }
+            .foot{
+                width: 90%;
+                margin: auto;
+                overflow: hidden;
             }
         </style>
     </head>
@@ -36,18 +48,18 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a href="#" class="navbar-brand"> LifeStyle Store</a>
+                    <a href="#" class="navbar-brand" style="font-family: 'Josefin Sans', sans-serif;"> LifeStyle Store</a>
                 </div>
                 <div class="collapase navbar-collapse" id="myNavbar">
                     <ul class="nav navbar-nav navbar-right" >
                         <li>
-                            <a href="#">
+                            <a href="#" style="font-family: 'Josefin Sans', sans-serif;">
                                 <span class="glyphicon glyphicon-user"></span>
                                 SignUp
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="#" style="font-family: 'Josefin Sans', sans-serif;">
                                 <span class="glyphicon glyphicon-log-in"></span>
                                 Login
                             </a>
@@ -60,13 +72,24 @@
             <div class="container">
                 <center>
                 <div id="banner_content" >
-                    <h1> We Sell LifeStyle</h1><br><br>
-                    <a href="content/product.html" class="btn btn-danger btn-lg active">
+                    <h1 style="font-family: 'Josefin Sans', sans-serif;"> 
+                        We Sell LifeStyle
+                    </h1>
+                    <p style="padding-bottom: 5%;">Flat 40%off on premium brands</p>
+                    <a href="product.html" class="btn btn-danger btn-lg active"style="font-family: 'Josefin Sans', sans-serif;">
                         Shop Now
                     </a>
                 </div>
                 </center>
             </div>
         </div>
+        <footer>
+            <div class="foot">
+                <center>
+                <p style="font-family: 'Abel', sans-serif;">Copyright © Lifestyle Store. 
+                    All Rights Reserved | Contact Us: +91 90000 00000</p>
+                </center>
+            </div>
+        </footer>
     </body>
 </html>
