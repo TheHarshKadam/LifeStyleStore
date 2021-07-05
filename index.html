@@ -32,9 +32,13 @@
                 color: #fff;
                 font-size: 14px;
             }
-            .foot{
-                width: 90%;
-                margin: auto;
+            .foot_container{
+                left: 0;
+                bottom: 0;
+                position: fixed;
+                width: 100%;
+                background-color: black;
+                color: white;
             }
         </style>
     </head>
@@ -47,12 +51,12 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a href="#" class="navbar-brand" style="font-family: 'Josefin Sans', sans-serif;">LifeStyle Store</a>
+                    <a href="index.html" class="navbar-brand" style="font-family: 'Josefin Sans', sans-serif;"> LifeStyle Store</a>
                 </div>
                 <div class="collapase navbar-collapse" id="myNavbar">
                     <ul class="nav navbar-nav navbar-right" >
                         <li>
-                            <a href="signup.html" style="font-family:'Josefin Sans',sans-serif;">
+                            <a href="signup.html" style="font-family: 'Josefin Sans', sans-serif;">
                                 <span class="glyphicon glyphicon-user"></span>
                                 SignUp
                             </a>
@@ -82,13 +86,11 @@
                 </center>
             </div>
         </div>
-        <footer>
-            <div class="foot">
+            <div class="foot_container">
                 <center>
                 <p style="font-family: 'Abel', sans-serif;">Copyright © Lifestyle Store. 
                     All Rights Reserved | Contact Us: +91 90000 00000</p>
                 </center>
             </div>
-        </footer>
     </body>
 </html>
